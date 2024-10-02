@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Start the development server",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "pnpm run dev"
+        },
+        {
+            "name": "Run the built app in production mode",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "pnpm start"
+        },
+        {
+            "name": "Build the app for production",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "pnpm run build"
+        },
+    ]
+}
