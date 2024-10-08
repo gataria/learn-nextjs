@@ -18,5 +18,11 @@
             "request": "launch",
             "command": "pnpm run build"
         },
+        {
+            "name": "Use ESLint on the app",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "pnpm lint"
+        }
     ]
 }
